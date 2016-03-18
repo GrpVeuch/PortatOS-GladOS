@@ -1,0 +1,82 @@
+﻿/*Auteur: Nolan Sallai,  */
+/*Création: 18.01.2016*/
+/*But: feuille de style css*/
+
+/*-----Sélecteur d'élément HTML ----*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    font:"Roboto", Verdana, sans-serif;
+
+}
+p{
+   font:  14px "Roboto", Verdana, sans-serif;
+}
+footer{
+    text-align: center;
+}
+#creator{
+    font:  5rem "Roboto", Verdana, sans-serif;
+    color: #0C44C5;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden-x;
+    text-align: center;
+    background-image: -webkit-linear-gradient(92deg,#007EFF,#00DCFF);
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+.h3{
+    font: "Roboto", Verdana, sans-serif;
+    color: #0C44C5;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden-x;
+    text-align: justify;
+    background-image: -webkit-linear-gradient(92deg,#007EFF,#00DCFF);
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+.band{
+    height: 150px;
+    background-color: #000000;
+    background: url(./../img/bg2.jpg) no-repeat center fixed;
+    margin:0;
+    padding:0;
+    background-size: cover;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #080808;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+}
+.navbar-inverse {
+  background-color: #222;
+  border :0px;  
+  border-radius: 0px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #00DCFF;
+  background-color: transparent;
+}
+#smartphone
+{
+    font:  5rem "Roboto", Verdana, sans-serif;
+    color: #f35626;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden-x;
+    text-align: center;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
